@@ -69,7 +69,7 @@ class BankAccount:
 
 # Sample usage
 try:
-    account = BankAccount("123456", 1000, "+918431565515")  # Replace with real phone number
+    account = BankAccount("123456", 1000, "+91")  # Replace with real phone number
 
     try:
         withdraw_amount = float(input("Enter amount to withdraw (₹): "))
@@ -92,3 +92,4 @@ try:
 except Exception as e:
     print(f"Unexpected error: {e}")
     logging.critical(f"Unexpected error: {e}")
+
